@@ -15,12 +15,11 @@ namespace Git_Push_Example
         {
             InitializeComponent();
         }
-
         private void btnNo_Click(object sender, EventArgs e)
         {
             if (btnNo.Text == "Yes")
             {
-                MessageBox.Show("I know that!!!");
+                MessageBox.Show("=))");     //thay doi thong diep
                 this.Close();
             }
             if (btnNo.Text == "No")
@@ -29,12 +28,11 @@ namespace Git_Push_Example
                 btnYes.Text = "No";
             }               
         }
-
         private void btnYes_Click(object sender, EventArgs e)
         {
             if (btnYes.Text == "Yes")
             {
-                MessageBox.Show("I know that!!!");
+                MessageBox.Show("=))");     //thay doi thong diep
                 this.Close();
             }
             if (btnYes.Text == "No")
